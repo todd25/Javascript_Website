@@ -1,0 +1,4 @@
+ipaddress:localhost
+db:job_tinder
+username:root
+password:rfpe1997

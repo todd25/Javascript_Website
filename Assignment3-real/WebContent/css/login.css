@@ -1,0 +1,117 @@
+@CHARSET "ISO-8859-1";
+
+#title_container{
+  color:white;
+  text-align: center;
+  font-size:200px;
+  float:left;
+  padding-left:20%;
+  padding-top:8%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    background-image:url('../img/login.jpeg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login_container{
+  padding-left:40%;
+  padding-top:9%;
+}
+
+form {
+  opacity:0.94;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#login_container h1 {
+  font-size:12px;
+  font-weight:normal;
+  color:#827d7d;
+  margin-top:0px;
+}
+#sub {
+  font-size: 14px;
+  color: white;
+  background: #22b49b;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+#sub:hover,#sub:active,#sub:focus {
+  background: #6de5ca;
+}
+
+#student_signup{
+  background: #a1a6a2;
+  color:white;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+#employer_signup{
+  background: #a1a6a2;
+  color:white;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+#guest{
+  background: #a1a6a2;
+  color:white;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+#student_signup:hover,#student_signup:active,#student_signup:focus {
+  background: #4c524c;
+}
+
+#employer_signup:hover,#employer_signup:active,#employer_signup:focus {
+  background: #4c524c;
+}
+
+#guest:hover,#guest:active,#guest:focus {
+  background: #4c524c;
+}
+.error_message{
+  color:red;
+  padding-bottom:10px;
+  font-size:14px;
+}
+
+@media (max-width: 800px){
+#login_container {
+    padding-left: 14%;
+    padding-top: 40%;
+}
+
+}

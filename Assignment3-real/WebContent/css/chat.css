@@ -1,0 +1,88 @@
+h1{
+	color: white;
+	padding: 10px 10px;
+	text-decoration: underline;
+}
+
+#discussion_board{
+	height: 60vh;
+	width: 50vh;
+	border: 5px solid white;
+	position: absolute;
+	top: 20%;
+	left: 70%;
+}
+
+#db_wrapper{
+	padding: 10px 10px;
+}
+
+#boardMessage{
+	width: 100%;
+}
+
+#board{
+	overflow: scroll;
+	height: 40%;
+	
+}
+
+#board p{
+	color: white;
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+}
+
+#chatHistory{
+	border: 5px solid white;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	height: 60vh;
+	width: 50vh;
+}
+
+
+#message{
+	width: 100%;
+}
+
+#chatWrapper{
+	padding: 10px 10px;
+}
+
+#p_wrapper{
+	height: 40%;
+	overflow: scroll;
+}
+
+#p_wrapper p{
+	color: white;
+	padding: 10px 10px;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+}
+
+table {
+	border: 5px solid white;
+	height: 60vh;
+	width: 50vh;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+} 
+
+td{
+	vertical-align: none;
+}
+
+table p{
+	color: white;
+	position: absolute; 
+	font-size: 14px;
+}
+
+.userButton{
+	width: 100%;
+}

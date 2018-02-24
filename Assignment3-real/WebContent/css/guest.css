@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+#icon{
+    width: 20px;
+    height: 20px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    background-image:url('../img/profile.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title{
+	color:white;
+	float:left;
+	width:20%;
+	margin-left:2%;
+}
+
+#profile-picture{
+	display:block;
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 15%;
+}
+
+#username{
+	padding-left:4%;
+	padding-top:2%;
+	font-size:22px;
+	color:black;
+}
+
+#content{
+	text-align:left;
+	float:right;
+	width:40%;
+}
+
+#users{
+	font-size:20px;
+	margin-left:25%;
+	float:left;
+  	width:80%;
+  	opacity:0.92;
+  	z-index: 1;
+  	background: #f3eeee;
+  	max-width: 800px;
+  	padding: 45px;
+  	text-align: center;
+ 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	
+}
+
+#user_container{
+	width: 60%;
+	height: auto;
+	float:left;
+	height:450px;
+	
+}
+
+#logout h3{
+	color:white;
+	font-size:20px;	
+
+}
+
+@media (max-width: 480px){
+	#content{
+		width: 100%;
+		margin-left: 0%;
+
+	}
+
+	#matched{
+		width: 100%;
+		margin:auto;
+
+	}
+
+	#user_container{
+		margin: auto;
+		margin-left: 38%;
+
+	}
+	
+}

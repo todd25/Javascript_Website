@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+
+body{
+  opacity:0.98;
+    background-image:url('../img/signup.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 600px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 60%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  /* box-sizing: border-box; */
+  font-size: 14px;
+}
+
+#indicate{
+  font-size:12px;
+}
+
+form legend
+{
+  font-family: "Roboto", sans-serif;
+  color: #22b49b;
+  padding:2px;
+  margin-left: 14px;
+  font-weight:bold;
+  font-size: 18px;
+  font-weight:100;
+}
+
+form fieldset.row1
+{
+  color:#70726a;
+  padding:5px;
+  border-top:1px solid #ccbdbd;
+  margin-bottom:15px;
+}
+
+form fieldset.row2
+{
+  color:#70726a;
+  padding:5px;
+  border-top:1px solid #ccbdbd;
+  margin-bottom:15px;
+}
+
+#star{
+  font-size:12px;
+  color:red;
+}
+
+#sub {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #22b49b;
+  width: 100%;
+  border: 0;
+  padding: 12px;
+  color: #FFFFFF;
+  font-size: 16px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+#sub:hover,#sub:active,#sub:focus {
+  background: #6de5ca;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+.error_message{
+  color:red;
+  padding-bottom:10px;
+  font-size:14px;
+}
+
+#checkbox{
+  width:30px;
+}

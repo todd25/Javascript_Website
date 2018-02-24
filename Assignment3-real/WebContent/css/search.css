@@ -1,0 +1,151 @@
+#icon{
+    width: 20px;
+    height: 20px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    background-image:url('../img/profile.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+	cursor: pointer;
+}
+
+#username{
+	padding-left:48%;
+	padding-top:1%;
+	font-size:26px;
+	color:white;
+}
+
+#sponsor{
+	margin-top: -3px
+}
+
+#content{
+  opacity:0.92;
+  position: relative;
+  z-index: 1;
+  background: #f3eeee;
+  max-width: 800px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#profile h1{
+	color:white;
+	font-size:20px;	
+	
+}
+
+
+#potential-match-image{
+	display:block;
+	margin: 0 auto;
+	width: 14%;
+}
+
+.image-container {
+	margin-top:4%;
+	width:60%;
+	float:left;
+}
+
+.like {
+	width:10%;
+	cursor: pointer;
+	float:right;
+	margin-right:10%;
+	margin-top:20%;
+}
+
+.dislike {
+	width:10%;
+	cursor: pointer;
+	float:left;
+	margin-left:10%;
+	margin-top:20%;
+}
+
+#others{
+	font-size:14px;
+	color:white;
+	opacity:0.82;
+  	position: relative;
+  	z-index: 1;
+  	background: #232e3a;
+  	max-width: 600px;
+  	margin: 0 auto 100px;
+  	padding: 45px;
+  	text-align: left;
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+.error-message{
+	opacity:0.8;
+	color:white;
+	margin-top:20%;
+	font-size:30px;
+	background-color:#414556;
+	width:50%;
+	margin-left:25%;
+	text-align:center;
+}
+
+#others h1{
+	font-size:28px;
+}
+
+#search_icon{
+	width:2%;
+
+}
+
+form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 10%;
+  height:10px;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color:black;
+}
+
+#search_navbar{
+	width: 25px;
+	height: 25px;
+}
+
+@media (max-width: 480px){
+	#content{
+		width: 100%;
+		margin-left: 0%;
+
+	}
+
+	#matched{
+		width: 100%;
+		margin:auto;
+
+	}
+
+	#user_container{
+		margin: auto;
+		margin-left: 38%;
+
+	}
+	
+}

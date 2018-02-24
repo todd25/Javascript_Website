@@ -1,0 +1,95 @@
+#icon{
+    width: 20px;
+    height: 20px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    background-image:url('../img/profile.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content{
+	margin-left:25%;
+  	width:80%;
+  	opacity:0.92;
+  	z-index: 1;
+  	background: #f3eeee;
+  	max-width: 800px;
+  	padding: 45px;
+  	text-align: center;
+ 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#content h1{
+	font-size:24px;
+}
+#search-button{
+	width: 10%;
+	height: 25px;
+}
+#photo{
+	margin-top:30px;
+}
+
+#profile-picture{
+	width:40%;
+}
+#place-details{
+	padding:20px;
+}
+
+#place-details h1{
+	font-size:20px;	
+	text-align:left;
+}
+#input-field{
+	  font-family: "Roboto", sans-serif;
+	  outline: 0;
+	  background: #cfd0c9;
+	  width: 30%;
+	  border: 0;
+	  margin: 0 0 15px;
+	  padding: 13px;
+	  box-sizing: border-box;
+	  font-size: 16px;
+}
+
+#search-button {
+    background-color: #22b49b;
+    border: none;
+    color: white;
+    height:48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px){
+	#content{
+		width: 100%;
+		margin-left: 0%;
+
+	}
+
+	#matched{
+		width: 100%;
+		margin:auto;
+
+	}
+
+	#user_container{
+		margin: auto;
+		margin-left: 38%;
+
+	}
+}
+	
+
